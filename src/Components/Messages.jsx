@@ -12,7 +12,7 @@ const Messages = ({ data }) => {
   return (
     <div className="msg-other">
       <div className="user-info">
-        <img src={data.author.name} alt="" />
+        <img src={data.author.photo} alt="" />
         <span>{data.author.name}</span>
       </div>
       <p className="msg-text">{data.text}</p>
