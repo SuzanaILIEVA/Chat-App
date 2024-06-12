@@ -12,10 +12,11 @@ const Messages = ({ data }) => {
   return (
     <div className="msg-other">
       <div className="user-info">
-        <img src={data.author.photo} alt="" />
+      <img src={data.author.photo} alt="profil pic" />
         <span>{data.author.name}</span>
       </div>
       <p className="msg-text">{data.text}</p>
+     
     </div>
   );
 };

@@ -15,5 +15,7 @@ https://chat-app-gold-eight.vercel.app/
 
 ## Gif
 
+![](/public/chatApp.gif)
+
 
 
